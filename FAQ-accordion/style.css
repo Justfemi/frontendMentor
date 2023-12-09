@@ -17,7 +17,7 @@ body {
 
 #container {
   background-color: hsl(0, 0%, 100%);
-  max-width: 800px;
+  max-width: 650px;
   border-radius: 15px;
   padding: 20px;
 
@@ -43,7 +43,7 @@ body {
       /* border: solid yellow; */
 
       > .faq-answer {
-        height: 0;
+        max-height: 0;
         overflow: hidden;
         background-color: hsl(0, 0%, 100%);
         transition: height 300ms ease-in-out;
